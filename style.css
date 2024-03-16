@@ -3,22 +3,53 @@
   padding: 0;
   font-family: "Slackside One", cursive;
 }
+
 body{
   background-color: whitesmoke;
 }
 
-
-header{
-border: 2px;
-border-radius: 2px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-img{
-  size: 20px;
-
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.linksBar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo  {
+  height: 200px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navBar {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.nav-links li {
+  display: inline-block; 
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0; 
+}
